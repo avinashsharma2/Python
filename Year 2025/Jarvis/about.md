@@ -27,9 +27,9 @@ Jarvis is a smart virtual assistant built using Python that integrates the OpenA
    pip install -r requirements.txt
    ```
 
-3. Set up your OpenAI API key by creating a `.env` file in the project directory with the following content:
+3. Set up your OpenAI API key by replacing the gptapi variable in main.py
    ```
-   OPENAI_API_KEY=your_openai_api_key_here
+   gptapi="your_openai_api_key_here"
    ```
    Replace `your_openai_api_key_here` with your actual API key.
 
